@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrés Jiménez - Desarrollador de Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .about, .portfolio, .contact, .questions, .buy-coffee {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .buy-coffee button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Andrés Jiménez</h1>
+        <p>Desarrollador de Software</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#questions">Preguntas y Sugerencias</a>
+        <a href="#buy-coffee">Buy me a Coffee</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Andrés Jiménez, un apasionado desarrollador de software con experiencia en diversas tecnologías y lenguajes de programación. Me encanta crear soluciones innovadoras y eficientes para problemas complejos.</p>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Portafolio</h2>
+        <p>Aquí puedes ver algunos de mis proyectos recientes:</p>
+        <ul>
+            <li>Proyecto 1 - Descripción breve del proyecto.</li>
+            <li>Proyecto 2 - Descripción breve del proyecto.</li>
+            <li>Proyecto 3 - Descripción breve del proyecto.</li>
+        </ul>
+    </section>
+    <section id="questions" class="questions">
+        <h2>Preguntas y Sugerencias</h2>
+        <form action="https://example.com/submit" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section id="buy-coffee" class="buy-coffee">
+        <h2>Buy me a Coffee</h2>
+        <p>Si te gusta mi trabajo, considera apoyarme con un café :)</p>
+        <button onclick="window.location.href='https://www.buymeacoffee.com/andresjimenez'">Buy me a Coffee</button>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de los siguientes medios:</p>
+        <ul>
+            <li>Email: <a href="mailto:andres.jimenez@example.com">andres.jimenez@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/andresjimenez" target="_blank">linkedin.com/in/andresjimenez</a></li>
+            <li>GitHub: <a href="https://github.com/andresjimenez" target="_blank">github.com/andresjimenez</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Andrés Jiménez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
